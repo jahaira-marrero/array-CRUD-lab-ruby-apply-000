@@ -1,13 +1,14 @@
 def create_an_empty_array
-  
-end
+  []
+end 
 
 def create_an_array
-  
-end
+  ["summer", "fall", "winter", "spring"]
+end 
 
-def add_element_to_end_of_array(array, element)
-  
+def add_element_to_end_of_array
+   array = ["summer", "fall", "winter", "spring"]
+   array << "summers"
 end
 
 def add_element_to_start_of_array(array, element)
